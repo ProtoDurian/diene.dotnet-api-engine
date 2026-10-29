@@ -17,6 +17,7 @@
     <!-- auth-engine's published credential fake is consumed rather than reimplemented, so this
          package's token helper imitates no contract of its own. -->
     <PackageReference Include="AtomiCloud.Diene.AuthEngine.TestHelper" />
+    <PackageReference Include="FluentAssertions" />
   </ItemGroup>
 
   <ItemGroup>
